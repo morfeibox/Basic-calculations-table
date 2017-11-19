@@ -131,7 +131,7 @@ function finalResult(mathString, e){
 
 //Tis function should be  optimised make two different things
 function getId(element){
-    console.log(element);
+   
     var x = document.getElementById(element.id).getAttribute("data-value"); //връща формлата в полето
 
     document.getElementById(element.id).value = x;
